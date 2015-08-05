@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/values-hdpi-960x540/dimens.xml -->
+    <eat-comment/>
+    <dimen name="flow_handler_left_margin">-4dip</dimen>
+    <dimen name="flow_height">500dip</dimen>
+    <dimen name="flow_width">70dip</dimen>
+    <dimen name="sidesar_contentpanel_width">295dp</dimen>
+    <dimen name="workspace_cell_height">100dip</dimen>
+    <dimen name="workspace_cell_width">80dip</dimen>
+</resources>

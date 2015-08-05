@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="0%p"
+    android:toXDelta="100%p"
+    android:duration="100"
+></translate>
+<!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/anim/left_to_expand.xml -->

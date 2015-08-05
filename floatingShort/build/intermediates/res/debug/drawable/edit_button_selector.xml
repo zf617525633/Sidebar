@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_focused="true" android:drawable="@drawable/multiwindow_tray_edit_btn_pressed"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/multiwindow_tray_edit_btn_pressed"></item>
+    <item android:state_focused="false" android:drawable="@drawable/multiwindow_tray_edit_btn"/>
+</selector>
+<!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/drawable/edit_button_selector.xml -->

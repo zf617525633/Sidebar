@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FloatingShort4.iml" filepath="$PROJECT_DIR$/FloatingShort4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingShort/floatingShort.iml" filepath="$PROJECT_DIR$/floatingShort/floatingShort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sideBarlibrary/sideBarlibrary.iml" filepath="$PROJECT_DIR$/sideBarlibrary/sideBarlibrary.iml" />
+    </modules>
+  </component>
+</project>

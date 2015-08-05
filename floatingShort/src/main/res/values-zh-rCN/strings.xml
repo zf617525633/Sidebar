@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">侧边栏</string>
+    <string name="edit_button_state_ok">完成</string>
+    <string name="edit_button_state_edit">编辑</string>
+    <string name="uu_lockscreen_install_laucher">安装桌面</string>
+    <string name="uu_lockscreen_ok">安装</string>
+    <string name="uu_lockscreen_cancel">取消</string>
+    <string name="uu_launcher_name">检测到您的手机没有安装UUCUN桌面，请问是否下载安装?</string>
+    <string name="activity_not_found">未找到应用!</string>
+    <string name="flow_empty_tip">将项目拖入或拖出托盘以进行添加或者移除</string>
+      
+    
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SideBar</string>
+    <string name="edit_button_state_ok">OK</string>
+    <string name="edit_button_state_edit">Edit</string>
+    <string name="uu_lockscreen_install_laucher">Install Launcher</string>
+    <string name="uu_lockscreen_ok">OK</string>
+    <string name="uu_lockscreen_cancel">cancel</string>
+    <string name="uu_launcher_name">You did\'t install UUCUN Launcher,do you need download ?</string>
+    <string name="activity_not_found">activity not found!</string>
+    <string name="flow_empty_tip">Drag items into or out of the tray to add or remove them</string>
+
+</resources>

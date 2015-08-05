@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefaultData xmlns:android="http://schemas.android.com/apk/res/android" >
+     <icon
+        titleName="信息"
+        packageName="com.android.mms"
+        className="com.android.mms.ui.ConversationList"
+        versionCode="" >
+    </icon>
+     <icon
+        titleName="音乐"
+        packageName="com.android.music"
+        className="com.android.music.MusicBrowserActivity"
+        versionCode="" >
+    </icon>
+     <icon
+        titleName="计算器"
+        packageName="com.android.calculator2"
+        className="com.android.calculator2.Calculator"
+        versionCode="" >
+    </icon>
+     <icon
+        titleName="图库"
+        packageName="com.cooliris.media"
+        className="com.cooliris.media.Gallery"
+        versionCode="" >
+    </icon>
+     <icon
+        titleName="录音机"
+        packageName="com.android.soundrecorder"
+        className="com.android.soundrecorder.SoundRecorder"
+        versionCode="34" >
+    </icon>
+
+</DefaultData>

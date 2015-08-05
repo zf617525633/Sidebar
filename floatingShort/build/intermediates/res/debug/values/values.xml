@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="ics_blue">#33b5e5</color>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="applist_textSize">11sp</dimen>
+    <dimen name="sidesar_contentpanel_width">250dp</dimen>
+    <dimen name="workspace_cell_height">100dip</dimen>
+    <dimen name="workspace_cell_width">80dip</dimen>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="activity_not_found">activity not found!</string>
+    <string name="app_name">SideBar</string>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/build/intermediates/exploded-aar/FloatingShort4/sideBarlibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="close">Close</string>
+    <string name="corner">Corner</string>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="edit_button_state_edit">Edit</string>
+    <string name="edit_button_state_ok">OK</string>
+    <string name="flow_empty_tip">Drag items into or out of the tray to add or remove them</string>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/build/intermediates/exploded-aar/FloatingShort4/sideBarlibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="hide">Hide</string>
+    <string name="maximize">Maximize</string>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="uu_launcher_name">You did\'t install UUCUN Launcher,do you need download ?</string>
+    <string name="uu_lockscreen_cancel">cancel</string>
+    <string name="uu_lockscreen_install_laucher">Install Launcher</string>
+    <string name="uu_lockscreen_ok">OK</string>
+    <!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/build/intermediates/exploded-aar/FloatingShort4/sideBarlibrary/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="window_icon">Window icon</string>
+</resources>

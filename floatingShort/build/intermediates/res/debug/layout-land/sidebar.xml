@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/sidebar_content"
+        android:layout_width="@dimen/flow_width" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bar_left" android:weightSum="6"
+        android:visibility="gone">
+
+        <FrameLayout android:layout_width="match_parent"
+            android:layout_height="@dimen/flow_height" android:layout_marginTop="10dp"
+            android:layout_weight="6" android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            >
+            <co.yoyu.sidebar.view.SideBarFlowPanel android:id="@+id/flow" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:fadingEdge="none"
+                android:layout_gravity="center_horizontal"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:dividerHeight="5dp"/>
+
+        </FrameLayout>
+
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:src="@drawable/multiwindow_tray_divider"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+             />
+        
+        <FrameLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            
+            >
+            <Button android:id="@+id/edit" android:layout_marginTop="2dp"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+             android:background="@drawable/edit_button_selector"
+            android:gravity="center" android:text="@string/edit_button_state_edit" android:textColor="#ffffff"
+            android:textSize="13sp" 
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+             />
+            
+        </FrameLayout>
+     
+    </LinearLayout>
+
+    <co.yoyu.sidebar.handler.HandlerDragLayer
+        android:id="@+id/handler_drag_layer" android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+         >
+
+        <ImageView android:id="@+id/preview_right"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" android:contentDescription="preview"
+            android:src="@drawable/multiwindow_tray_right_handle_closed"
+            android:visibility="gone" />
+
+        <ImageView android:id="@+id/preview" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+            android:contentDescription="preview" android:src="@drawable/multiwindow_tray_left_handle_closed"
+            android:visibility="visible" />
+
+    </co.yoyu.sidebar.handler.HandlerDragLayer>
+
+
+    <!--GridView  -->
+    <co.yoyu.sidebar.view.SideBarContentPanel android:id="@+id/appgrid" android:layout_height="match_parent"
+        android:layout_width="260dp" android:numColumns="3"
+        android:verticalSpacing="5dp" android:visibility="gone"/>
+
+
+</LinearLayout><!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/layout-land/sidebar.xml -->

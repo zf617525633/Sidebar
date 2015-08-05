@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<co.yoyu.sidebar.view.SideBarLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/sidebar_content"
+        android:layout_width="@dimen/flow_width" android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bar_left"
+        android:visibility="invisible" >
+
+        <FrameLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" >
+            <co.yoyu.sidebar.view.SideBarFlowPanel android:id="@+id/flow" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:fadingEdge="none"
+                android:layout_gravity="center_horizontal"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:dividerHeight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+        </FrameLayout>
+
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0"
+            android:layout_marginBottom="8dp">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/multiwindow_tray_divider"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView android:id="@+id/edit" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_button_selector"
+                android:gravity="center"
+                android:text="@string/edit_button_state_edit"
+                android:textColor="#000000"
+                android:textSize="13sp" 
+                android:layout_gravity="center"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <co.yoyu.sidebar.handler.HandlerDragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/handler_drag_layer" android:layout_width="wrap_content" android:visibility="gone"
+        android:layout_height="wrap_content" >
+
+        <ImageView android:id="@+id/preview_right"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" android:contentDescription="preview"
+            android:src="@drawable/multiwindow_tray_right_handle"
+            android:visibility="gone" />
+
+        <ImageView android:id="@+id/preview_left" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+            android:contentDescription="preview" android:src="@drawable/multiwindow_tray_left_handle"
+            android:visibility="visible" />
+    </co.yoyu.sidebar.handler.HandlerDragLayer>
+
+    <!--GridView  -->
+    <co.yoyu.sidebar.view.SideBarContentPanel xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="5dp"
+        android:id="@+id/appgrid" android:layout_height="match_parent"
+        android:layout_width="@dimen/sidesar_contentpanel_width" android:numColumns="3"
+        android:verticalSpacing="5dp" android:visibility="gone"/>
+
+    <TextView 
+        android:id="@+id/flow_empty_tip_textview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/flow_empty_tip"
+        android:visibility="gone" />
+   </co.yoyu.sidebar.view.SideBarLinearLayout><!-- From: file:/C:/Users/zhangf/AndroidStudioProjects/FloatingShort4/floatingShort/src/main/res/layout/sidebar.xml -->

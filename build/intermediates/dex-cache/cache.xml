@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\zhangf\AndroidStudioProjects\FloatingShort4\floatingShort\build\intermediates\exploded-aar\FloatingShort4\sideBarlibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7006635262338570451cb44871af2cf13c5db885">
+        <dex dex="C:\Users\zhangf\AndroidStudioProjects\FloatingShort4\floatingShort\build\intermediates\pre-dexed\debug\classes-8071ba4ee6ee1ad8fabb56d256d8df75d2542b0c.jar" />
+    </item>
+
+</items>
