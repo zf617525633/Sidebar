@@ -289,18 +289,10 @@ public class SideBar extends StandOutWindow implements OnGestureListener {
     public void onReceiveData(int id, int requestCode, Bundle data, Class<? extends StandOutWindow> fromCls, int fromId) {
         switch (requestCode) {
             case CODE_SHOW_SIDE_BAR_WINDOW:
-//                if(getWindow(WINDOW_ID_SIDE_BAR)!=null){
-//                    
-//                }else{
                  show(WINDOW_ID_SIDE_BAR);
-//                }
                 break;
             case CODE_SHOW_SIDE_BAR_HANDLER_WINDOW:
-//                if(getWindow(WINDOW_ID_SIDE_BAR_HANDLER)!=null){
-//                    
-//                }else{
-                  show(WINDOW_ID_SIDE_BAR_HANDLER);
-//                }
+                show(WINDOW_ID_SIDE_BAR_HANDLER);
                 break;
             default:
                 break;
